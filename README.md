@@ -1,5 +1,5 @@
 <p align="center">
-  <img src="./branding/LOGO.png" width="180"/>
+  <img src="./branding/ICON.png" width="180"/>
 </p>
 
 <h1 align="center">NPI Protocol</h1>
