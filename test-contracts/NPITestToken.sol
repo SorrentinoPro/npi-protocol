@@ -1,7 +1,7 @@
 // SPDX-License-Identifier: MIT
 pragma solidity ^0.8.20;
 
-contract NPIToken {
+contract NPITestToken {
 
     string public name = "NPI Test Token (BSC Testnet)";
     string public symbol = "NPIt";
