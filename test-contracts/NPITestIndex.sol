@@ -29,12 +29,7 @@ contract NPITestIndex {
         require(_gdp > 1000 && _gdp < 100000, "Invalid GDP");
 
         require(
-            _gdp >= gdp - 1000 && _gdp <= gdp + 1000,
-            "GDP jump too large"
-        );
-
-        require(
-            block.timestamp > lastUpdate + 1 minutes,
+            block.timestamp > lastUpdate + 1 seconds,
             "Too early"
         );
 
