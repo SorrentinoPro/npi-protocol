@@ -1,0 +1,7 @@
+artifacts/
+.deps/
+.git/
+.npm/
+remix-tests/
+*.json
+.env
