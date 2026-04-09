@@ -11,7 +11,7 @@ interface IERC20 {
     function balanceOf(address account) external view returns (uint256);
 }
 
-contract NPIMarket {
+contract NPITestMarket {
 
     IERC20 public token;
     INPIIndex public index;
